@@ -1,12 +1,9 @@
 #!/bin/bash
 
-#RED5_SRC=/home/firstuser/dev/red5/red5
-
 set -x
 
 RED5_SRC=$(pwd)
-RED5_DIR=/usr/share/red5
-NEW_RED5=/usr/share/red5-r4627
+RED5_SERVER=${RED5_SRC}/target/red5-server
 
 cd $RED5_SRC
 
