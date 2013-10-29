@@ -21,8 +21,8 @@ echo "Extractring red5"
 tar zxvf red5-server-${RED5_VER}-server.tar.gz
 
 mv red5-server-${RED5_VER} red5-server
-cp $RED5_SRC/extras/commons-fileupload-1.2.2.jar red5-server
-cp $RED5_SRC/extras/commons-io-2.1.jar red5-server
+cp $RED5_SRC/extras/commons-fileupload-1.2.2.jar red5-server/lib
+cp $RED5_SRC/extras/commons-io-2.1.jar red5-server/lib
 
 echo "Done."
 cd $RED5_SRC
